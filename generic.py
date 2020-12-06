@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 
+# Constants - JSON identifiers
 TXTR_BLOCKS='Blocks'
 TXTR_BLOCKTYPE='BlockType'
 TXTR_BOUNDINGBOX='BoundingBox'
@@ -31,6 +32,7 @@ TXTR_TYPE='Type'
 TXTR_VALUE='VALUE'
 TXTR_WIDTH='Width'
 
+# Constants for configuration file
 CONF_BUSINESSFIELD='BusinessField'
 CONF_CONFIGURATIONS='Configurations'
 CONF_END_TEXT='EndText'
