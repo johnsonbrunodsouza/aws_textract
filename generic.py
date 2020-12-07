@@ -517,7 +517,7 @@ def setConfigItem(businessField,pdfField,extractType,jsonField,endField=[],textT
         conf[CONF_OPTION_FIELDS]=optionFields
     return conf
 
-
-with open('SampleFile-Name.json') as responseFile:
-    jsonBlocks=json.load(responseFile)
-    print(jsonBlocks)
+if __name__ == "__main__":
+    with open('SampleFile-Name.json') as responseFile:
+        jsonBlocks=json.load(responseFile)
+        print(jsonBlocks)
